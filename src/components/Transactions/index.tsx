@@ -1,22 +1,23 @@
 import { Container } from "./styles";
+import { useEffect } from "react";
 
 export function TransactionsTable(){
+  useEffect(()=>{
+    fetch('http://localhost:3000/api/transactions')
+      .then(response => response.json())
+      .then(data => console.log(data))
+  }, [])
+
   return (
     <Container>
       <table>
         <thead>
-          <th>
-            Titulo
-          </th>
-          <th>
-            Valor
-          </th>
-          <th>
-            Categoria
-          </th>
-          <th>
-            Data
-          </th>
+          <tr>
+            <th>Titulo</th>
+            <th>Valor</th>
+            <th>Categoria</th>
+            <th>Data</th>
+          </tr>
         </thead>
 
         <tbody>
