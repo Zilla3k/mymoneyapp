@@ -1,8 +1,13 @@
+import { GlobalStyle } from './styles/global';
+
 
 export function App() {
   return (
     <div className="App">
-      <h1>Inicio</h1>
+      <h1>
+        Hello World
+      </h1>
+      <GlobalStyle />
     </div>
   );
 }
