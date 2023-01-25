@@ -14,18 +14,18 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freelancer Mmagalhaes',
+          title: 'Freelancer',
           type: 'deposit',
           category: 'Dev',
-          amount: 650,
+          amount: 6500,
           createdAt: new Date('2023-02-22 20:00:00'),
         },
         {
           id: 2,
-          title: 'Hidrovacuo',
+          title: 'Body Kit',
           type: 'withdraw',
-          category: 'Carro',
-          amount: 350,
+          category: 'Car',
+          amount: 4550,
           createdAt: new Date('2023-02-12 14:30:00'),
         }
       ]
