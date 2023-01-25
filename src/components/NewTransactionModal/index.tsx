@@ -1,7 +1,6 @@
 import { FormEvent, useState, useContext } from 'react';
 import  Modal  from 'react-modal';
 import { TransactionsContext } from '../../TransactionsContext';
-import { api } from '../../services/api';
 
 import entradasImg from '../../assets/entradas.svg'
 import saidasImg from '../../assets/saidas.svg'
